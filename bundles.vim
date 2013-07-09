@@ -15,7 +15,8 @@ Bundle 'scrooloose/nerdcommenter'
 " fuzzy file open
 Bundle 'kien/ctrlp.vim'
 " popup completion menu
-Bundle 'AutoComplPop'
+"Bundle 'AutoComplPop'
+Bundle 'Valloric/YouCompleteMe'
 " tags list navigation
 Bundle 'taglist.vim'
 " yank history
@@ -58,6 +59,8 @@ Bundle 'hsitz/VimOrganizer'
 Bundle 'sjl/gundo.vim'
 " switch segments of text with predefined replacements. e.g. '' -> ""
 Bundle 'AndrewRadev/switch.vim'
+" async external commands with output in vim
+Bundle 'tpope/vim-dispatch'
 
 " Ruby/Rails
 
@@ -112,7 +115,15 @@ Bundle 'scrooloose/vim-space'
 Bundle 'mattn/gist-vim'
 " web APIs support
 Bundle 'mattn/webapi-vim'
+" navigate between tmux and vim splits
+Bundle 'christoomey/vim-tmux-navigator'
 
 "Bundle 'ShowMarks'
 "Bundle 'tpope/vim-unimpaired'
 "Bundle 'reinh/vim-makegreen'
+
+
+Bundle 'Shougo/vimproc'
+Bundle 'Shougo/unite.vim'
+Bundle 'Shougo/unite-outline'
+Bundle 'ujihisa/unite-colorscheme'
